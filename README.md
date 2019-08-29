@@ -1,3 +1,4 @@
+https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6
 I don’t know what you just said (Option 2)
 I’m going to assume that anyone who’s interested in option 2 is brand new to all of this and maybe has a folder full of files (or you plan to have one) that you want to put on GitHub and you just don’t know how to do that.
 Let’s make that happen!
