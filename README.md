@@ -1,4 +1,8 @@
 https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6
+
+
+
+
 I don’t know what you just said (Option 2)
 I’m going to assume that anyone who’s interested in option 2 is brand new to all of this and maybe has a folder full of files (or you plan to have one) that you want to put on GitHub and you just don’t know how to do that.
 Let’s make that happen!
@@ -70,3 +74,27 @@ You’re committing the changes to the HEAD, but not to the remote repository. (
 When you save a change, that’s called a commit. When you make a commit, you’ll include a message about what you changed and/or why you changed it. This is a great way to let others know what you’ve changed and why.
 Now your changes are in the head of your local working copy. To send the changes to your remote repository, run
 git push
+  
+  : The comments have enlightened me quite a bit…there seems to always be more than one way to skin a cat using Git. The easiest way is just to use the git branch commands’ various options. -a shows all local and remote branches, while -r shows only remote branches.
+
+$ git branch
+* master
+
+$ git branch -a
+* master
+  origin/1-2-stable
+  origin/2-0-stable
+  origin/2-1-stable
+  origin/2-2-stable
+  origin/3-0-unstable
+  origin/HEAD
+  origin/master
+
+$ git branch -r
+  origin/1-2-stable
+  origin/2-0-stable
+  origin/2-1-stable
+  origin/2-2-stable
+  origin/3-0-unstable
+  origin/HEAD
+  origin/master
