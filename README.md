@@ -1,5 +1,8 @@
 https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6
 
+Change your remote's URL from HTTPS to SSH with the git remote set-url command.
+$ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+
 
 
 
